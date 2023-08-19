@@ -1,0 +1,3604 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#upper-nav{
+    display: flex;
+    font-size: 20px;
+}
+
+#AboutArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    border: 1px solid black;
+    color: white;
+    background-color: black; 
+}
+
+ #timing{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#timing i{
+    font-size: 25px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+#mailandIcons{
+    display: flex;
+    align-items: center;
+} 
+
+#upper-nav-email{
+    padding-right: 20px;
+}
+
+
+#Talk{
+    display: flex;
+    width: 30%;
+    border: 1px solid red;
+    padding: 13px;
+    color: white;
+    background-color: red;
+    align-items: center;
+}
+
+#Talk i{
+    padding: 1px 15px 3px 35px;  
+}
+
+#iwhatsapp{
+    color: white;
+    background-color: #128C7E;
+    padding: 15px 10px; 
+}
+#ilinkdin{
+    color: white;
+    background-color: #0A66C2;
+    padding: 15px 10px;
+}
+#iinstagram{
+    color: white;
+    background-color: #E4405F;
+    padding: 15px 10px;
+}
+#itwitter{
+    color: white;
+    background-color: #00acee;
+    padding: 15px 10px;   
+}
+#ifacebook{
+    color: white;
+    background-color: #3b5998;
+    padding: 15px 10px;
+}
+
+@media(max-width:1270px){
+    #upper-nav{
+        display: flex;
+        font-size: 18px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #timing i{
+        font-size: 25px;
+        font-weight: 900;
+        padding-right: 10px;
+    }
+    #upper-nav-email{
+        padding-right: 22px;
+    }
+    #iwhatsapp{
+        padding: 15px 9px; 
+    }
+    #ilinkdin{
+        padding: 15px 9px;
+    }
+    #iinstagram{
+        padding: 15px 9px;
+    }
+    #itwitter{
+        padding: 15px 9px;   
+    }
+    #ifacebook{
+        padding: 15px 9px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 13px;
+    }
+    #Talk i{
+        padding: 1px 15px 3px 35px;  
+    }
+}
+
+@media(max-width:1170px){
+    #upper-nav{
+        display: flex;
+        font-size: 16px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #timing i{
+        font-size: 20px;
+        font-weight: 900;
+        padding-right: 10px;
+    }
+    #upper-nav-email{
+        padding-right: 20px;
+    }
+    #iwhatsapp{
+        padding: 15px 9px; 
+    }
+    #ilinkdin{
+        padding: 15px 9px;
+    }
+    #iinstagram{
+        padding: 15px 9px;
+    }
+    #itwitter{
+        padding: 15px 9px;   
+    }
+    #ifacebook{
+        padding: 15px 9px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 13px;
+    }
+    #Talk i{
+        padding: 1px 15px 3px 35px;  
+    }
+}
+@media(max-width:1070px){
+    #upper-nav{
+        display: flex;
+        font-size: 14px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #timing i{
+        font-size: 20px;
+        font-weight: 900;
+        padding-right: 10px;
+    }
+    #upper-nav-email{
+        padding-right: 20px;
+    }
+    #iwhatsapp{
+        padding: 14px 9px; 
+    }
+    #ilinkdin{
+        padding: 14px 9px;
+    }
+    #iinstagram{
+        padding: 14px 9px;
+    }
+    #itwitter{
+        padding: 14px 9px;   
+    }
+    #ifacebook{
+        padding: 14px 9px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 9px;
+        font-size:18px
+    }
+    #Talk i{
+        padding: 1px 15px 3px 35px;  
+    }
+}
+@media(max-width:980px){
+    #upper-nav{
+        display: flex;
+        font-size: 12px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #timing i{
+        font-size: 16px;
+        font-weight: 900;
+        padding-right: 10px;
+    }
+    #upper-nav-email{
+        padding-right: 20px;
+    }
+    #iwhatsapp{
+        padding: 14px 9px; 
+    }
+    #ilinkdin{
+        padding: 14px 9px;
+    }
+    #iinstagram{
+        padding: 14px 9px;
+    }
+    #itwitter{
+        padding: 14px 9px;   
+    }
+    #ifacebook{
+        padding: 14px 9px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 9px;
+        font-size:16px
+    }
+    #Talk i{
+        padding: 1px 35px;  
+    }
+}
+@media(max-width:880px){
+    #upper-nav{
+        display: flex;
+        font-size: 10px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+    #timing i{
+        font-size: 15px;
+        font-weight: 900;
+        padding-right: 10px;
+    }
+    #upper-nav-email{
+        padding-right: 20px;
+    }
+    #iwhatsapp{
+        padding: 14px 9px; 
+    }
+    #ilinkdin{
+        padding: 14px 9px;
+    }
+    #iinstagram{
+        padding: 14px 9px;
+    }
+    #itwitter{
+        padding: 14px 9px;   
+    }
+    #ifacebook{
+        padding: 14px 9px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 9px;
+        font-size:12px
+    }
+    #Talk i{
+        padding: 1px 30px;  
+    }
+}
+@media(max-width:780px){
+    #upper-nav{
+        display: flex;
+        font-size: 8px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    #timing i{
+        font-size: 12px;
+        font-weight: 900;
+        padding-right: 10px;
+    }
+    #upper-nav-email{
+        padding-right: 20px;
+    }
+    #iwhatsapp{
+        padding: 14px 9px; 
+    }
+    #ilinkdin{
+        padding: 14px 9px;
+    }
+    #iinstagram{
+        padding: 14px 9px;
+    }
+    #itwitter{
+        padding: 14px 9px;   
+    }
+    #ifacebook{
+        padding: 14px 9px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 9px;
+        font-size:12px
+    }
+    #Talk i{
+        padding: 1px 30px;  
+    }
+}
+@media(max-width:675px){
+    #upper-nav{
+        display: flex;
+        font-size: 7px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    #timing i{
+        font-size: 7px;
+        font-weight: 900;
+        padding-right:5px;
+    }
+    #upper-nav-email{
+        padding-right: 20px;
+    }
+    #iwhatsapp{
+        padding: 14px 7px; 
+    }
+    #ilinkdin{
+        padding: 14px 7px;
+    }
+    #iinstagram{
+        padding: 14px 7px;
+    }
+    #itwitter{
+        padding: 14px 7px;   
+    }
+    #ifacebook{
+        padding: 14px 7px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 9px;
+        font-size:9px
+    }
+    #Talk i{
+        padding: 1px 25px;  
+    }
+}
+@media(max-width:550px){
+    #upper-nav{
+        display: flex;
+        font-size: 5px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    #timing i{
+        font-size: 6px;
+        font-weight: 900;
+        padding-right:5px;
+    }
+    #upper-nav-email{
+        padding-right: 20px;
+    }
+    #iwhatsapp{
+        padding: 12px 7px; 
+    }
+    #ilinkdin{
+        padding: 12px 7px;
+    }
+    #iinstagram{
+        padding: 12px 7px;
+    }
+    #itwitter{
+        padding: 12px 7px;   
+    }
+    #ifacebook{
+        padding: 12px 7px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 9px;
+        font-size:7px
+    }
+    #Talk i{
+        padding: 1px 16px;  
+    }
+}
+@media(max-width:455px){
+    #upper-nav{
+        display: flex;
+        font-size: 4px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+    #timing i{
+        font-size: 5px;
+        padding-right:3px;
+    }
+    #upper-nav-email{
+        padding-right: 10px;
+    }
+    #iwhatsapp{
+        padding: 9px 4px; 
+        font-size: 5px;
+    }
+    #ilinkdin{
+        padding: 9px 4px; 
+        font-size: 5px;
+    }
+    #iinstagram{
+        padding: 9px 4px; 
+        font-size: 5px;
+    }
+    #itwitter{
+        padding: 9px 4px; 
+        font-size: 5px;
+    }
+    #ifacebook{
+        padding: 9px 4px; 
+        font-size: 5px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 5px;
+        font-size:6px;
+    }
+    #Talk i{
+        padding: 1px 9px;  
+    }
+}
+@media(max-width:331px){
+    #upper-nav{
+        display: flex;
+        font-size: 3px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    #timing i{
+        font-size: 3px;
+        padding-right:2px;
+    }
+    #upper-nav-email{
+        padding-right: 10px;
+    }
+    #iwhatsapp{
+        padding: 5px 2px; 
+        font-size:4px;
+    }
+    #ilinkdin{
+        padding: 5px 2px; 
+        font-size: 4px;
+    }
+    #iinstagram{
+        padding: 5px 2px; 
+        font-size: 4px;
+    }
+    #itwitter{
+        padding: 5px 2px; 
+        font-size: 4px;
+    }
+    #ifacebook{
+        padding: 5px 2px; 
+        font-size: 4px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 2px;
+        font-size:3px;
+    }
+    #Talk i{
+        padding: 1px 4px;  
+    }
+}
+@media(max-width:240px){
+    #upper-nav{
+        display: flex;
+        font-size: 2px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    #timing i{
+        font-size: 3px;
+        padding-right:2px;
+    }
+    #upper-nav-email{
+        padding-right: 10px;
+    }
+    #iwhatsapp{
+        padding: 4px 2px; 
+        font-size:4px;
+    }
+    #ilinkdin{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #iinstagram{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #itwitter{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #ifacebook{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 2px;
+        font-size:3px;
+    }
+    #Talk i{
+        padding: 1px 4px;  
+    }
+}
+@media(max-width:202px){
+    #upper-nav{
+        display: flex;
+        font-size: 2px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #timing i{
+        font-size: 3px;
+        padding-right:2px;
+    }
+    #upper-nav-email{
+        padding-right: 10px;
+    }
+    #iwhatsapp{
+        padding: 4px 2px; 
+        font-size:4px;
+    }
+    #ilinkdin{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #iinstagram{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #itwitter{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #ifacebook{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 2px;
+        font-size:3px;
+    }
+    #Talk i{
+        padding: 1px 4px;  
+    }
+}
+
+#mainNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-top: 20px;
+    
+}
+#mainNavImage{
+  padding-left: 50px;
+  width: 300px;
+  height: auto;
+}
+#Nav-items{
+    list-style-type: none;
+    display: flex;
+}
+.items{
+    font-family: sans-serif;
+    padding-right: 60px;
+    font-weight: bold;
+}
+
+@media(max-width:1400px){
+    #mainNav{
+        font-size: 15px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 50px;
+      padding-right:20px;
+      width: 300px;
+      height: auto;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 50px;
+        font-weight: bold;
+    }
+}
+@media(max-width:1300px){
+    #mainNav{
+        font-size: 15px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 50px;
+      padding-right:20px;
+      width: 300px;
+      height: auto;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 35px;
+        font-weight: bold;
+    }
+}
+@media(max-width:1180px){
+    #mainNav{
+        font-size: 14px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 50px;
+      padding-right:20px;
+      width: 300px;
+      height: auto;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 30px;
+        font-weight: bold;
+    }
+}
+@media(max-width:1100px){
+    #mainNav{
+        font-size: 14px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 40px;
+      padding-right:15px;
+      width: 280px;
+      height: auto;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 20px;
+        font-weight: bold;
+    }
+}
+@media(max-width:1000px){
+    #mainNav{
+        font-size: 13px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 40px;
+      padding-right:2px;
+      width: 250px;
+      height: auto;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 18px;
+        font-weight: bold;
+    }
+}
+@media(max-width:920px){
+    #mainNav{
+        font-size: 12px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 40px;
+      padding-right:2px;
+      width: 240px;
+      height: auto;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 18px;
+        font-weight: bold;
+    }
+}
+@media(max-width:870px){
+    #mainNav{
+        font-size: 11px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 40px;
+      padding-right:2px;
+      width: 210px;
+      height: auto;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 17px;
+        font-weight: bold;
+    }
+}
+@media(max-width:793px){
+    #mainNav{
+        font-size: 10px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 30px;
+      padding-right:2px;
+      width: 180px;
+      height: auto;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 15px;
+        font-weight: bold;
+    }
+}
+@media(max-width:710px){
+    #mainNav{
+        font-size: 10px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 30px;
+      width: 160px;
+      height: auto;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 11px;
+        font-weight: bold;
+    }
+}
+@media(max-width:657px){
+    #mainNav{
+        font-size: 9px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 30px;
+      width: 150px;
+      height: auto;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 10px;
+        font-weight: bold;
+    }
+}
+@media(max-width:600px){
+    #mainNav{
+        font-size: 8px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 30px;
+      width: 150px;
+      height: auto;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 9px;
+        font-weight: bold;
+    }
+}
+@media(max-width:555px){
+    #mainNav{
+        font-size: 7px;
+        padding-top: 20px;
+        
+    }
+    #mainNavImage{
+      padding-left: 30px;
+      width: 130px;
+      height: auto;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 7px;
+        font-weight: bold;
+    }
+}
+@media(max-width:482px){
+    #mainNav{
+        font-size: 6px;
+        padding-top: 15px;
+        
+    }
+    #mainNavImage{
+      padding-left: 20px;
+      width: 110px;
+      height: auto;
+      margin-top: -15px;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 7px;
+        font-weight: bold;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+        margin-left: -15px;
+    }
+}
+@media(max-width:411px){
+    #mainNav{
+        font-size: 5px;
+        padding-top: 10px;
+        
+    }
+    #mainNavImage{
+      padding-left: 20px;
+      width: 90px;
+      height: auto;
+      margin-top: -15px;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 6px;
+        font-weight: bold;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+        margin-left: -15px;
+    }
+}
+@media(max-width:343px){
+    #mainNav{
+        font-size: 4px;
+        padding-top: 10px;
+        
+    }
+    #mainNavImage{
+      padding-left: 18px;
+      width: 70px;
+      height: auto;
+      margin-top: -15px;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 5px;
+        font-weight: bold;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+        margin-left: -25px;
+    }
+}
+@media(max-width:270px){
+    #mainNav{
+        font-size: 3px;
+        padding-top: 10px;
+        
+    }
+    #mainNavImage{
+      padding-left: 18px;
+      width: 55px;
+      height: auto;
+      margin-top: -15px;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 4px;
+        font-weight: bold;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+        margin-left: -25px;
+    }
+}
+@media(max-width:208px){
+    #mainNav{
+        font-size: 3px;
+        padding-top: 10px;
+        
+    }
+    #mainNavImage{
+      padding-left: 10px;
+      width: 50px;
+      height: auto;
+      margin-top: -15px;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 3px;
+        font-weight: bold;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+        margin-left: -30px;
+    }
+}
+
+#formBanner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 10px;
+    margin-top: 20px;
+    background-color: rgb(208, 59, 59);
+    color: white;
+}
+#formBannerText{
+    font-family: sans-serif;
+    margin-left: 50px;
+    
+}
+#formBannerText h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+#formBannerText h5{
+    font-size: 21px;
+}
+
+#formBannerForm{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+    background-color: white;
+    margin-right: 50px;
+    border: none;
+}
+#formBannerForm p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+#formBannerForm input{
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 15px;
+}
+#formButton{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px;
+}
+
+@media(max-width:1018px){
+    #formBanner{
+        padding: 80px 10px;
+        margin-top: 20px;
+    }
+    #formBannerText{
+        margin-left: 40px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    #formBannerText h5{
+        font-size: 17px;
+    }
+    #formBannerForm{
+        padding: 10px 25px;
+        margin-right: 40px;
+    }
+    #formBannerForm p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 15px;
+    }
+    #formButton{
+        padding: 5px;
+    }
+}
+@media(max-width:871px){
+    #formBanner{
+        padding: 80px 10px;
+        margin-top: 20px;
+    }
+    #formBannerText{
+        margin-left: 40px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #formBannerText h5{
+        font-size: 15px;
+    }
+    #formBannerForm{
+        padding: 10px 25px;
+        margin-right: 35px;
+    }
+    #formBannerForm p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 15px;
+    }
+    #formButton{
+        padding: 5px;
+    }
+}
+@media(max-width:800px){
+    #formBanner{
+        padding: 80px 10px;
+        margin-top: 20px;
+    }
+    #formBannerText{
+        margin-left: 35px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #formBannerText h5{
+        font-size: 13px;
+    }
+    #formBannerForm{
+        padding: 10px 25px;
+        margin-right: 33px;
+    }
+    #formBannerForm p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 15px;
+    }
+    #formButton{
+        padding: 5px;
+    }
+}
+@media(max-width:726px){
+    #formBanner{
+        padding: 80px 10px;
+        margin-top: 20px;
+    }
+    #formBannerText{
+        margin-left: 35px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #formBannerText h5{
+        font-size: 11px;
+    }
+    #formBannerForm{
+        padding: 9px 22px;
+        margin-right: 33px;
+    }
+    #formBannerForm p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 15px;
+    }
+    #formButton{
+        padding: 5px;
+    }
+}
+@media(max-width:653px){
+    #formBanner{
+        padding: 70px 5px;
+        margin-top: 20px;
+    }
+    #formBannerText{
+        margin-left: 35px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    #formBannerText h5{
+        font-size: 9px;
+    }
+    #formBannerForm{
+        padding: 9px 20px;
+        margin-right: 30px;
+    }
+    #formBannerForm p{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    #formButton{
+        padding: 3px;
+    }
+}
+@media(max-width:573px){
+    #formBanner{
+        padding: 60px 5px;
+        margin-top: 20px;
+    }
+    #formBannerText{
+        margin-left: 30px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #formBannerText h5{
+        font-size: 9px;
+    }
+    #formBannerForm{
+        padding: 8px 18px;
+        margin-right: 30px;
+    }
+    #formBannerForm p{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 14px;
+        font-size: 12px;
+    }
+    #formButton{
+        padding: 3px;
+        font-size: 12px;
+    }
+}
+@media(max-width:519px){
+    #formBanner{
+        padding: 60px 5px;
+        margin-top: 10px;
+    }
+    #formBannerText{
+        margin-left: 25px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    #formBannerText h5{
+        font-size: 8px;
+    }
+    #formBannerForm{
+        padding: 8px 16px;
+        margin-right: 30px;
+    }
+    #formBannerForm p{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    #formButton{
+        padding: 3px;
+        font-size: 10px;
+    }
+}
+@media(max-width:461px){
+    #formBanner{
+        padding: 60px 5px;
+        margin-top: 10px;
+    }
+    #formBannerText{
+        margin-left: 20px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    #formBannerText h5{
+        font-size: 6px;
+    }
+    #formBannerForm{
+        padding: 8px 14px;
+        margin-right: 25px;
+    }
+    #formBannerForm p{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 9px;
+        font-size: 8px;
+    }
+    #formButton{
+        padding: 3px;
+        font-size: 8px;
+    }
+}
+@media(max-width:400px){
+    #formBanner{
+        padding: 50px 5px;
+        margin-top: 7px;
+    }
+    #formBannerText{
+        margin-left: 15px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #formBannerText h5{
+        font-size: 5px;
+    }
+    #formBannerForm{
+        padding: 7px 12px;
+        margin-right: 20px;
+    }
+    #formBannerForm p{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 8px;
+        font-size: 7px;
+    }
+    #formButton{
+        padding: 3px;
+        font-size: 7px;
+    }
+}
+@media(max-width:330px){
+    #formBanner{
+        padding: 40px 5px;
+        margin-top: 5px;
+    }
+    #formBannerText{
+        margin-left: 12px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    #formBannerText h5{
+        font-size: 3px;
+    }
+    #formBannerForm{
+        padding: 6px 10px;
+        margin-right: 10px;
+    }
+    #formBannerForm p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 7px;
+        font-size: 6px;
+    }
+    #formButton{
+        padding: 3px;
+        font-size: 6px;
+    }
+}
+@media(max-width:254px){
+    #formBanner{
+        padding: 20px 5px;
+        margin-top: 2px;
+    }
+    #formBannerText{
+        margin-left: 12px;
+        padding-right: 6px;
+    }
+    #formBannerText h3{
+        font-size: 8px;
+        font-weight: 500;
+    }
+    #formBannerText h5{
+        font-size: 3px;
+    }
+    #formBannerForm{
+        padding: 5px 8px;
+        margin-right: 10px;
+    }
+    #formBannerForm p{
+        font-size: 8px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 6px;
+        font-size: 5px;
+    }
+    #formButton{
+        padding: 2px;
+        font-size: 5px;
+    }
+}
+@media(max-width:212px){
+    #formBanner{
+        padding: 20px 5px;
+        margin-top: 1px;
+    }
+    #formBannerText{
+        margin-left: 10px;
+        padding-right: 5px;
+    }
+    #formBannerText h3{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    #formBannerText h5{
+        font-size: 3px;
+    }
+    #formBannerForm{
+        padding: 2px 5px;
+        margin-right: 5px;
+    }
+    #formBannerForm p{
+        font-size: 6px;
+        font-weight: bold;
+    }
+    #formBannerForm input{
+        margin-bottom: 4px;
+        font-size: 4px;
+    }
+    #formButton{
+        padding: 1px;
+        font-size: 4px;
+    }
+}
+
+#logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#logos img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+}
+#logos div{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#textBelowFourLogos{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: grey;
+    font-family: sans-serif;
+}
+#textBelowFourLogos i{
+    font-size: 40px;
+    text-align:start;
+    color: grey;
+    font-weight: bold;
+}
+
+@media(max-width:1000px){
+    #logos{
+        margin-top: 30px;
+    }
+    #logos img{
+        width:80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #textBelowFourLogos{
+        font-size: 35px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #textBelowFourLogos i{
+        font-size: 30px;
+    }
+}
+@media(max-width:750px){
+    #logos{
+        margin-top: 30px;
+    } 
+    #logos img{
+        width:70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 12px;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+    #textBelowFourLogos{
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #textBelowFourLogos i{
+        font-size: 20px;
+    }
+}
+@media(max-width:600px){
+    #logos{
+        margin-top: 30px;
+    }
+    
+    #logos img{
+        width:60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 10px;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+    #textBelowFourLogos{
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #textBelowFourLogos i{
+        font-size: 15px;
+    }
+}
+@media(max-width:480px){
+    #logos{
+        margin-top: 30px;
+    }
+    
+    #logos img{
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 8px;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+    #textBelowFourLogos{
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #textBelowFourLogos i{
+        font-size: 15px;
+    }
+}
+@media(max-width:410px){
+    #logos{
+        margin-top: 30px;
+    }
+    
+    #logos img{
+        width:40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 8px;
+        font-weight: 600;
+        margin-right: 10px;
+    }
+    #textBelowFourLogos{
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #textBelowFourLogos i{
+        font-size: 15px;
+    }
+}
+@media(max-width:350px){
+    #logos{
+        margin-top: 30px;
+    }
+    
+    #logos img{
+        width:30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 5px;
+        font-weight: 600;
+        margin-right: 8px;
+    }
+    #textBelowFourLogos{
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 18px;
+    }
+    #textBelowFourLogos i{
+        font-size: 13px;
+    }
+}
+@media(max-width:290px){
+    #logos{
+        margin-top: 30px;
+    }
+    
+    #logos img{
+        width:20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 4px;
+        font-weight: 600;
+        margin-right: 5px;
+    }
+    #textBelowFourLogos{
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    #textBelowFourLogos i{
+        font-size: 13px;
+    }
+}
+@media(max-width:240px){
+    #logos{
+        margin-top: 20px;
+    }
+    
+    #logos img{
+        width:20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 4px;
+        font-weight: 600;
+        margin-right: 5px;
+    }
+    #textBelowFourLogos{
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    #textBelowFourLogos i{
+        font-size: 9px;
+    }
+}
+@media(max-width:204px){
+    #logos{
+        margin-top: 20px;
+    }
+    
+    #logos img{
+        width:20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 4px;
+        font-weight: 600;
+        margin-right: 5px;
+    }
+    #textBelowFourLogos{
+        font-size: 9px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    #textBelowFourLogos i{
+        font-size: 9px;
+    }
+}
+
+
+#middle{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(221, 221, 221);
+    padding-top: 50px;
+}
+#middleText{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(102, 100, 100);
+}
+#middleText p{
+    margin-bottom: 25px;
+}
+#middleImages img{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+.Image1{
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.Image2{
+    margin-bottom: 25px;
+}
+
+@media(max-width:1000px){
+    #middle{
+        padding: 50px 50px;
+    }
+    #middleText{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 25px;
+        padding-right: 50px;
+    }
+    #middleImages img{
+        width: 265px;
+        height: 190px;
+    }
+    .Image1{
+        margin-bottom: 25px;
+        margin-right: 25px;
+    }
+    .Image2{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:896px){
+    #middle{
+        padding: 50px 50px;
+    }
+    #middleText{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 25px;
+        padding-right: 50px;
+    }
+    #middleImages img{
+        width: 235px;
+        height: 170px;
+    }
+    .Image1{
+        margin-bottom: 25px;
+        margin-right: 25px;
+    }
+    .Image2{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:812px){
+    #middle{
+        padding: 50px 50px;
+    }
+    #middleText{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 23px;
+        padding-right: 50px;
+    }
+    #middleImages img{
+        width: 215px;
+        height: 140px;
+    }
+    .Image1{
+        margin-bottom: 25px;
+        margin-right: 25px;
+    }
+    .Image2{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:750px){
+    #middle{
+        padding: 50px 45px;
+    }
+    #middleText{
+        font-size: 19px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 22px;
+        padding-right: 50px;
+    }
+    #middleImages img{
+        width: 170px;
+        height: 130px;
+    }
+    .Image1{
+        margin-bottom: 25px;
+        margin-right: 25px;
+    }
+    .Image2{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:650px){
+    #middle{
+        padding: 47px 43px;
+    }
+    #middleText{
+        font-size: 19px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 18px;
+        padding-right: 45px;
+    }
+    #middleImages img{
+        width: 150px;
+        height: 130px;
+    }
+    .Image1{
+        margin-bottom: 22px;
+        margin-right: 22px;
+    }
+    .Image2{
+        margin-bottom: 22px;
+    }
+}
+@media(max-width:600px){
+    #middle{
+        padding: 47px 40px;
+    }
+    #middleText{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 16px;
+        padding-right: 40px;
+    }
+    #middleImages img{
+        width: 125px;
+        height: 120px;
+    }
+    .Image1{
+        margin-bottom: 22px;
+        margin-right: 22px;
+    }
+    .Image2{
+        margin-bottom: 22px;
+    }
+}
+@media(max-width:522px){
+    #middle{
+        padding: 47px 40px;
+    }
+    #middleText{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 16px;
+        padding-right: 35px;
+    }
+    #middleImages img{
+        width: 115px;
+        height: 100px;
+    }
+    .Image1{
+        margin-bottom: 18px;
+        margin-right: 18px;
+    }
+    .Image2{
+        margin-bottom: 18px;
+    }
+}
+@media(max-width:478px){
+    #middle{
+        padding: 40px 33px;
+    }
+    #middleText{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 8px;
+        padding-right: 33px;
+    }
+    #middleImages img{
+        width: 105px;
+        height: 90px;
+    }
+    .Image1{
+        margin-bottom: 18px;
+        margin-right: 13px;
+    }
+    .Image2{
+        margin-bottom: 18px;
+    }
+}
+@media(max-width:423px){
+    #middle{
+        padding: 40px 30px;
+    }
+    #middleText{
+        font-size: 11px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 8px;
+        padding-right: 30px;
+    }
+    #middleImages img{
+        width: 95px;
+        height: 80px;
+    }
+    .Image1{
+        margin-bottom: 16px;
+        margin-right: 12px;
+    }
+    .Image2{
+        margin-bottom: 16px;
+    }
+}
+@media(max-width:380px){
+    #middle{
+        padding: 35px 25px;
+    }
+    #middleText{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 8px;
+        padding-right: 28px;
+    }
+    #middleImages img{
+        width: 85px;
+        height: 80px;
+    }
+    .Image1{
+        margin-bottom: 16px;
+        margin-right: 12px;
+    }
+    .Image2{
+        margin-bottom: 16px;
+    }
+}
+@media(max-width:340px){
+    #middle{
+        padding: 30px 20px;
+    }
+    #middleText{
+        font-size: 8px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 8px;
+        padding-right: 25px;
+    }
+    #middleImages img{
+        width: 80px;
+        height: 70px;
+    }
+    .Image1{
+        margin-bottom: 16px;
+        margin-right: 10px;
+    }
+    .Image2{
+        margin-bottom: 16px;
+    }
+}
+@media(max-width:300px){
+    #middle{
+        padding: 25px 28px;
+    }
+    #middleText{
+        font-size: 6px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 8px;
+        padding-right: 20px;
+    }
+    #middleImages img{
+        width: 60px;
+        height: 50px;
+    }
+    .Image1{
+        margin-bottom: 14px;
+        margin-right: 10px;
+    }
+    .Image2{
+        margin-bottom: 14px;
+    }
+}
+@media(max-width:258px){
+    #middle{
+        padding: 25px 25px;
+    }
+    #middleText{
+        font-size: 5px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 6px;
+        padding-right: 18px;
+    }
+    #middleImages img{
+        width: 50px;
+        height: 40px;
+    }
+    .Image1{
+        margin-bottom: 14px;
+        margin-right: 10px;
+    }
+    .Image2{
+        margin-bottom: 14px;
+    }
+}
+@media(max-width:221px){
+    #middle{
+        padding: 25px 15px;
+    }
+    #middleText{
+        font-size: 6px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 5px;
+        padding-right: 16px;
+    }
+    #middleImages img{
+        width: 43px;
+        height: 30px;
+    }
+    .Image1{
+        margin-bottom: 10px;
+        margin-right: 8px;
+    }
+    .Image2{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:190px){
+    #middle{
+        padding: 25px 15px;
+    }
+    #middleText{
+        font-size: 6px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 5px;
+        padding-right: 14px;
+    }
+    #middleImages img{
+        width: 40px;
+        height: 28px;
+    }
+    .Image1{
+        margin-bottom: 10px;
+        margin-right: 8px;
+    }
+    .Image2{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(70, 65, 65);
+}
+#footerFirst{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+#footerFirstForm{
+    font-weight: bold;
+}
+
+#footerFirstForm input{
+    width: 350px;
+    padding: 5px 15px;
+    border: none;
+}
+
+#footerFirstForm button{
+    width: 350px;
+    padding: 5px 15px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+#footerFirst div h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#footerFirstImgHeading{
+    font-weight: bold;
+}
+
+#footerFirstImgHeadingImg{
+    height:250px;
+    width:120px;
+}
+
+#footersecond{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom:50px;
+}
+
+#footersecond div p{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+@media(max-width:1000px){
+    #footer{
+        background-color: rgb(70, 65, 65);
+    }
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #footerFirst div h2{
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 50px;
+    }
+    #footerFirstForm{
+        font-weight: bold;
+    }
+    
+    #footerFirstForm input{
+        width: 300px;
+        padding: 5px 15px;
+    }
+    
+    #footerFirstForm button{
+        width: 300px;
+        padding: 5px 15px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: 5px;
+        height:260px;
+        width:120px;
+    }
+    
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    #footersecond div li{
+        font-size: 12px;
+    }
+}
+@media(max-width:770px){
+    #footer{
+        background-color: rgb(70, 65, 65);
+    }
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #footerFirst div h2{
+        font-size: 35px;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+    #footerFirstForm{
+        font-weight: bold;
+    }
+    #footerFirstFormHeading{
+        font-size: 13px;
+        
+    }
+    #footerFirstForm input{
+        width: 230px;
+        padding: -5px 15px;
+        font-size: 13px;
+    }
+    
+    #footerFirstForm button{
+        width: 230px;
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: 1px;
+        height:210px;
+        width:90px;
+        margin-bottom: 10px;
+    }
+    
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    #footersecond div li{
+        font-size: 10px;
+    }
+}
+@media(max-width:540px){
+    #footer{
+        background-color: rgb(70, 65, 65);
+    }
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #footerFirst div h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #footerFirstForm{
+        font-weight: bold;
+    }
+    #footerFirstFormHeading{
+        font-size: 12px;
+    }
+    #footerFirstForm input{
+        font-size: 12px;
+        width: 200px;
+        padding: 3px 15px;
+    }
+    
+    #footerFirstForm button{
+        font-size: 12px;
+        width: 200px;
+        padding: 5px 15px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: 1px;
+        height:200px;
+        width:85px;
+        margin-bottom: 10px;
+    }
+    
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 9px;
+        margin-left: 10px;
+    }
+    #footersecond div li{
+        font-size: 9px;
+    }
+}
+@media(max-width:450px){
+    #footer{
+        background-color: rgb(70, 65, 65);
+    }
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #footerFirst div h2{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    #footerFirstForm{
+        font-weight: bold;
+    }
+    #footerFirstFormHeading{
+        font-size: 10px;
+    }
+    #footerFirstForm input{
+        font-size: 10px;
+        width: 170px;
+        padding: 3px 15px;
+    }
+    
+    #footerFirstForm button{
+        font-size: 10px;
+        width: 170px;
+        padding: 5px 15px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: 1px;
+        height:200px;
+        width:85px;
+        margin-bottom: 10px;
+    }
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 7px;
+        margin-left: 10px;
+    }
+    #footersecond div li{
+        font-size: 7px;
+    }
+}
+@media(max-width:400px){
+    
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #footerFirst div h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    #footerFirstForm{
+        font-weight: bold;
+    }
+    #footerFirstForm p{
+        margin-bottom: 8px;
+    }
+    #footerFirstFormHeading{
+        font-size: 8px;
+    }
+    #footerFirstForm input{
+        font-size: 9px;
+        width: 150px;
+        padding: 3px 15px;
+    }
+    
+    #footerFirstForm button{
+        font-size: 10px;
+        width: 150px;
+        padding: 5px 15px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+        font-size: 8px;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: 1px;
+        height:158px;
+        width:70px;
+        margin-bottom: 10px;
+    }
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 5px;
+        margin-left: 20px;
+    }
+    #footersecond div li{
+        font-size:5px;
+    }
+}
+@media(max-width:340px){
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #footerFirst div h2{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #footerFirstForm{
+        font-weight: bold;
+    }
+    #footerFirstForm p{
+        margin-bottom: 5px;
+    }
+    #footerFirstFormHeading{
+        font-size: 8px;
+    }
+    #footerFirstForm input{
+        font-size: 8px;
+        width: 120px;
+        padding: 3px 15px;
+    }
+    
+    #footerFirstForm button{
+        font-size: 6px;
+        width: 120px;
+        padding: 5px 15px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+        font-size: 6px;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: -10px;
+        height:150px;
+        width:70px;
+        margin-bottom: 5px;
+    }
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 4px;
+        margin-left: 20px;
+    }
+    #footersecond div li{
+        font-size:5px;
+    }
+}
+@media(max-width:310px){
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #footerFirst div h2{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #footerFirstForm{
+        font-weight: bold;
+    }
+    #footerFirstForm p{
+        margin-bottom: 1px;
+    }
+    #footerFirstFormHeading{
+        font-size: 6px;
+    }
+    #footerFirstForm input{
+        font-size: 6px;
+        width: 100px;
+        padding: 2px 15px;
+    }
+    
+    #footerFirstForm button{
+        font-size: 5px;
+        width: 100px;
+        padding: 3px 15px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+        font-size: 6px;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: -10px;
+        height:120px;
+        width:65px;
+        margin-bottom: 1px;
+    }
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 4px;
+        margin-left: 20px;
+        margin-bottom: 8px;
+    }
+    #footersecond div li{
+        font-size:4px;
+        
+    }
+}
+@media(max-width:280px){
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    #footerFirst div h2{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #footerFirstForm p{
+        margin-bottom: -3px;
+    }
+    #footerFirstFormHeading{
+        font-size: 6px;
+    }
+    #footerFirstForm input{
+        font-size: 6px;
+        width: 90px;
+        padding: 2px 15px;
+    }
+    
+    #footerFirstForm button{
+        font-size: 5px;
+        width: 90px;
+        padding: 3px 15px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+        font-size: 6px;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: -10px;
+        height:100px;
+        width:60px;
+        margin-bottom: 1px;
+    }
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 4px;
+        margin-left:10px;
+        margin-bottom: 8px;
+    }
+    #footersecond div li{
+        font-size:4px;
+        margin-bottom: 2px;
+        margin-left: -10px;
+    }
+}
+@media(max-width:245px){
+    #footerFirst{
+        margin-top: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    #footerFirst div h2{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #footerFirstForm p{
+        margin-bottom: -5px;
+    }
+    #footerFirstFormHeading{
+        font-size: 6px;
+    }
+    #footerFirstForm input{
+        font-size: 5px;
+        width: 70px;
+        padding: 2px 15px;
+    }
+    
+    #footerFirstForm button{
+        font-size: 3px;
+        width: 70px;
+        padding: 3px 15px;
+    }
+    #footerFirstImgHeading{
+        font-weight: bold;
+        font-size: 6px;
+    }
+    
+    #footerFirstImgHeadingImg{
+        margin-top: -10px;
+        height:88px;
+        width:35px;
+        margin-bottom: 1px;
+    }
+    #footersecond{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom:50px;
+    }
+    
+    #footersecond div p{
+        font-weight: bold;
+        font-size: 4px;
+        margin-left:8px;
+        margin-bottom: 8px;
+    }
+    #footersecond div li{
+        font-size:3px;
+        margin-bottom: 2px;
+        margin-left: -11px;
+    }
+}
+
+#belowFotter{
+    border: none;
+    margin-top: 60px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 50px;
+    padding-left: 150px;
+
+}
+
+#belowFotter p{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+@media(max-width:1400px){
+    #belowFotter{
+        padding-left: 90px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    #belowFotter p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+@media(max-width:1000px){
+    #belowFotter{
+        padding-left: 100px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    #belowFotter p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+@media(max-width:770px){
+    #belowFotter{
+        margin-top: 60px;
+        margin-bottom: 30px;
+        padding-left: 40px;
+    }
+    #belowFotter p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+@media(max-width:530px){
+    #belowFotter{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    #belowFotter p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+@media(max-width:475px){
+    #belowFotter{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    #belowFotter p{
+        font-size: 6px;
+        font-weight: 500;
+    } 
+}
+@media(max-width:410px){
+    #belowFotter{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #belowFotter p{
+        font-size: 6px;
+        font-weight: 500;
+    }  
+}
+@media(max-width:370px){
+    #belowFotter{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #belowFotter p{
+        font-size: 5px;
+        font-weight: 500;
+    }
+}
+@media(max-width:270px){
+    #belowFotter{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    #belowFotter p{
+        font-size: 4px;
+        font-weight: 600;
+    }
+} 
+
+
+#termsCondition{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-left: 55px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+#termsCondition i{
+    font-size: 30px;
+}
+
+#termsCondition input{
+    width: 180px;
+    padding:3px 35px 3px 10px;
+    border: none;
+    background-color: gainsboro;
+    font-size: 15px;
+    color: black;
+}
+
+#termsCondition button{
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding:3px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+ @media(max-width: 1310px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 55px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+    
+    #termsCondition i{
+        font-size: 30px;
+    }
+    
+    #termsCondition input{
+        width: 180px;
+        padding:3px 35px 3px 10px;
+        font-size: 15px;
+    }
+    #termsCondition button{
+        width: 100px;
+        padding:3px;
+        margin-left: 5px;
+        font-size: 15px;
+    } 
+} 
+@media(max-width: 1000px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 65px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+    
+    #termsCondition i{
+        font-size: 25px;
+    }
+    
+    #termsCondition input{
+        width: 180px;
+        padding:3px 35px 3px 10px;
+        font-size: 15px;
+    }
+    #termsCondition button{
+        width: 100px;
+        padding:3px;
+        margin-left: 5px;
+        font-size: 15px;
+    } 
+}
+@media(max-width: 900px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 75px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    
+    #termsCondition i{
+        font-size: 23px;
+    }
+    
+    #termsCondition input{
+        width: 150px;
+        padding:3px 33px 3px 10px;
+        font-size: 14px;
+    }
+    #termsCondition button{
+        width: 90px;
+        padding:3px;
+        margin-left: 5px;
+        font-size: 14px;
+    } 
+} 
+@media(max-width: 770px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    
+    #termsCondition i{
+        font-size: 17px;
+    }
+    
+    #termsCondition input{
+        width: 130px;
+        padding:3px 33px 3px 10px;
+        font-size: 12px;
+    }
+    #termsCondition button{
+        width: 70px;
+        padding:3px;
+        margin-left: 5px;
+        font-size: 12px;
+    } 
+} 
+@media(max-width: 650px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 20px;
+        font-size: 11px;
+    }
+    
+    #termsCondition i{
+        font-size: 15px;
+    }
+    
+    #termsCondition input{
+        width: 120px;
+        padding:3px 33px 3px 10px;
+        font-size: 12px;
+    }
+    #termsCondition button{
+        width: 60px;
+        padding:3px;
+        margin-left: 5px;
+        font-size: 10px;
+    } 
+} 
+@media(max-width: 570px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 20px;
+        font-size: 10px;
+    }
+    
+    #termsCondition i{
+        font-size: 13px;
+    }
+    
+    #termsCondition input{
+        width: 100px;
+        padding:2px 30px 2px 8px;
+        font-size: 10px;
+    }
+    #termsCondition button{
+        width: 55px;
+        padding:2px;
+        margin-left: 5px;
+        font-size: 10px;
+    } 
+} 
+@media(max-width: 500px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 8px;
+    }
+    
+    #termsCondition i{
+        font-size: 10px;
+    }
+    
+    #termsCondition input{
+        width: 90px;
+        padding:2px 28px 2px 7px;
+        font-size: 9px;
+    }
+    #termsCondition button{
+        width: 50px;
+        padding:2px;
+        margin-left: 5px;
+        font-size: 9px;
+    } 
+} 
+@media(max-width: 440px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 15px;
+        font-size: 6px;
+    }
+    
+    #termsCondition i{
+        font-size: 9px;
+    }
+    
+    #termsCondition input{
+        width: 70px;
+        padding:2px 26px 2px 7px;
+        font-size: 8px;
+    }
+    #termsCondition button{
+        width: 40px;
+        padding:2px;
+        margin-left: 4px;
+        font-size: 7px;
+    } 
+} 
+@media(max-width: 350px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 15px;
+        font-size: 5px;
+    }
+    
+    #termsCondition i{
+        font-size: 8px;
+    }
+    
+    #termsCondition input{
+        width: 40px;
+        padding:1px 20px 1px 6px;
+        font-size: 3px;
+    }
+    #termsCondition button{
+        width: 25px;
+        padding:1px;
+        margin-left: 2px;
+        font-size: 3px;
+    } 
+} 
+@media(max-width: 265px){
+    #termsCondition{
+        margin-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 4px;
+    }
+    #termsCondition i{
+        font-size: 5px;
+    }
+    
+    #termsCondition input{
+        width: 30px;
+        padding:1px 20px 1px 6px;
+        font-size: 2px;
+    }
+    #termsCondition button{
+        width: 15px;
+        padding:1px;
+        margin-left: 2px;
+        font-size: 2px;
+    } 
+} 
+
+
+#companyNamesHeading{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: 700;
+}
+#companyNames{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#firstRow img{
+     width:200px;
+     height: auto;
+}
+
+#secondRow img{
+    width:200px;
+    height: auto;
+    margin-top: -60px;
+}
+#textBelowcompanyNames{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#textBelowcompanyNames h2{
+    font-size: 90px;
+    font-family: sans-serif;
+}
+#textBelowcompanyNames h1{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-size: 110px;
+    font-weight: 600;
+}
+#textBelowcompanyNames button{
+    color: white;
+    background-color: rgb(219, 15, 15);
+    border: 1px solid red;
+    font-size: 30px;
+    padding:1px 70px;
+    font-weight:500;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+@media(max-width:1100px){
+    #companyNamesHeading{
+        padding-top: 80px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #firstRow img{
+         width:180px;
+         height: auto;
+    }
+    #secondRow img{
+        width:180px;
+        height: auto;
+        margin-top: -60px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 80px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 80px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-size: 110px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 30px;
+        padding:1px 70px;
+        font-weight:500;
+    }
+}
+@media(max-width:1000px){
+    #companyNamesHeading{
+        padding-top: 80px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #firstRow img{
+         width:160px;
+         height: auto;
+    }
+    #secondRow img{
+        width:160px;
+        height: auto;
+        margin-top: -60px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 80px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 70px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-size: 110px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 30px;
+        padding:1px 70px;
+        font-weight:500;
+    }
+}
+@media(max-width:900px){
+    #companyNamesHeading{
+        padding-top: 80px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #firstRow img{
+         width:140px;
+         padding-right: 5px;
+         height: auto;
+    }
+    #secondRow img{
+        width:140px;
+        padding-right: 5px;
+        height: auto;
+        margin-top: -20px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 80px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 65px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-size: 110px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 30px;
+        padding:1px 70px;
+        font-weight:500;
+    }
+}
+@media(max-width:800px){
+    #companyNamesHeading{
+        padding-top: 80px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #firstRow img{
+         width:120px;
+         padding-right: 5px;
+         height: auto;
+    }
+    #secondRow img{
+        width:120px;
+        padding-right: 5px;
+        height: auto;
+        margin-top: -20px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 80px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 60px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-size: 100px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 30px;
+        padding:1px 70px;
+        font-weight:500;
+    }
+}
+@media(max-width:700px){
+    #companyNamesHeading{
+        padding-top: 80px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #firstRow img{
+         width:100px;
+         padding-right: 5px;
+         height: auto;
+    }
+    #secondRow img{
+        width:100px;
+        padding-right: 5px;
+        height: auto;
+        margin-top: -20px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 60px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 50px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-size: 90px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 25px;
+        padding:1px 55px;
+        font-weight:500;
+    }
+}
+@media(max-width:600px){
+    #companyNamesHeading{
+        padding-top: 80px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #firstRow img{
+         width:85px;
+         padding-right: 4px;
+         height: auto;
+    }
+    #secondRow img{
+        width:85px;
+        padding-right: 4px;
+        height: auto;
+        margin-top: -20px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 60px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 40px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-size: 70px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 25px;
+        padding:1px 40px;
+        font-weight:500;
+    }
+}
+@media(max-width:505px){
+    #companyNamesHeading{
+        padding-top: 80px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #firstRow img{
+         width:70px;
+         padding-right: 4px;
+         height: auto;
+    }
+    #secondRow img{
+        width:70px;
+        padding-right: 4px;
+        height: auto;
+        margin-top: -20px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 60px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 35px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 25px;
+        padding:1px 30px;
+        font-weight:500;
+    }
+}
+@media(max-width:430px){
+    #companyNamesHeading{
+        padding-top: 80px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #firstRow img{
+         width:60px;
+         padding-right: 4px;
+         height: auto;
+    }
+    #secondRow img{
+        width:60px;
+        padding-right: 4px;
+        height: auto;
+        margin-top: -20px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 40px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 30px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -10px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 18px;
+        padding:1px 25px;
+        font-weight:500;
+    }
+}
+@media(max-width:378px){
+    #companyNamesHeading{
+        padding-top: 50px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #firstRow img{
+         width:45px;
+         padding-right: 3px;
+         height: auto;
+    }
+    #secondRow img{
+        width:45px;
+        padding-right: 3px;
+        height: auto;
+        margin-top: -15px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 40px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 25px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -10px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 12px;
+        padding:1px 20px;
+        font-weight:500;
+    }
+}
+@media(max-width:305px){
+    #companyNamesHeading{
+        padding-top: 50px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #firstRow img{
+         width:40px;
+         padding-right: 3px;
+         height: auto;
+    }
+    #secondRow img{
+        width:40px;
+        padding-right: 3px;
+        height: auto;
+        margin-top: -15px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 40px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 20px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -10px;
+        margin-bottom: 5px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 10px;
+        padding:1px 18px;
+        font-weight:500;
+    }
+}
+@media(max-width:280px){
+    #companyNamesHeading{
+        padding-top: 30px;
+        font-size: 8px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #firstRow img{
+         width:30px;
+         padding-right: 3px;
+         height: auto;
+    }
+    #secondRow img{
+        width:30px;
+        padding-right: 3px;
+        height: auto;
+        margin-top: -10px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 30px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 15px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -8px;
+        margin-bottom: 1px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 8px;
+        padding:1px 10px;
+        font-weight:500;
+    }
+}
+@media(max-width:230px){
+    #companyNamesHeading{
+        padding-top: 30px;
+        font-size: 8px;
+        font-weight: 700;
+    }
+    #companyNames{
+        padding-bottom: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #firstRow img{
+         width:26px;
+         padding-right: 3px;
+         height: auto;
+    }
+    #secondRow img{
+        width:26px;
+        padding-right: 3px;
+        height: auto;
+        margin-top: -10px;
+    }
+    #textBelowcompanyNames{
+        padding-bottom: 20px;
+    }
+    
+    #textBelowcompanyNames h2{
+        font-size: 14px;
+    }
+    #textBelowcompanyNames h1{
+        margin-top: -8px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    #textBelowcompanyNames button{
+        font-size: 6px;
+        padding:1px 10px;
+        font-weight:500;
+    }
+}
